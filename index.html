@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<title>Health App</title>
+
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background: linear-gradient(300deg, #dfbdf5, #7cb8b8);
+			font-family: "Poppins", sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+		}
+
+		.mybox {
+			width: auto;
+			height: max-content;
+		}
+
+		.logo h2{
+			font-size: 5em;
+			color: #815a9b;
+		}
+
+		.heartlink {
+			display: flex;
+			justify-content: center;
+			margin: 20px 0px 20px 0px;
+		}
+
+		.heartlink button {
+			width: 240px;
+			padding: 10px;
+			background-color: tomato;
+			color: whitesmoke;
+			font-size: 24px;
+			font-weight: 600;
+		}
+
+		.heartlink button:hover {
+			width: 280px;
+			transition: 0.7s;
+		}
+
+		.liverlink {
+			display: flex;
+			justify-content: center;
+		}
+
+		.liverlink button {
+			width: 240px;
+			padding: 10px;
+			background-color: teal;
+			color: whitesmoke;
+			font-size: 24px;
+			font-weight: 600;
+		}
+
+		.liverlink button:hover {
+			width: 280px;
+			transition: 0.7s;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="mycontainer">
+		<div class="mybox">
+			<div class="logo">
+				<h2>Health App</h2>
+			</div>
+			<div class="heartlink">
+				<a href="http://127.0.0.1:5000"><button class="btn">Heart Checkup</button></a>
+			</div>
+			<div class="liverlink">
+				<a href="http://127.0.0.1:3000"><button class="btn">Liver Checkup</button></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
